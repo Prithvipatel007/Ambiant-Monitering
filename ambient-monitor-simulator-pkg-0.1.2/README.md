@@ -3,7 +3,7 @@ This repository contains the implementation of a simple simulated Ambient-Temper
 
 The device's functionality is exported via a string based communication protocol which can be accessed via a Serial like interface
 ### What is this repository for? ###
-The aim of this repository is to provide a self-contained 'virtual' device that can
+The aim of this repository is to provide a self-contained 'virtual' device that can 
 easily be shared and used as a sandbox for programming challenges at different levels of complexity.
 
 
@@ -38,3 +38,6 @@ Command | Reply Value Type | Reply
     # wait for data to be available
     reply = interface.read(interface.in_waiting)
     print(reply)  # --> b':REP:TEMPERATURE:21.2123:!'
+
+
+
